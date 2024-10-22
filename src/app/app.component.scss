@@ -55,7 +55,7 @@ a, p, h1, h2, h3, h4, em, b, i {
 // Estilos de botones
 .btn {
   padding: 10px;
-  width: 5em;
+  width: auto;
   background-color: $primary-color;
   color: $secondary-color;
   border-radius: 0.25em;
@@ -72,24 +72,25 @@ a, p, h1, h2, h3, h4, em, b, i {
   .flex-container {
     flex-direction: column;
   }
-
-  .btn {
-    width: 100%; // Asegura que los botones ocupen todo el ancho en pantallas pequeñas
-  }
 }
 
 
 /* Estilos generales para móviles */
 @media (max-width: 768px) {
   body {
-      font-size: 14px;
-      padding: 0;
-      margin: 0;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
   }
 
-  h1, h2, h3 {
-      font-size: 1.5em;
-      text-align: center;
+  h2, h3 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
   }
 
   .container {

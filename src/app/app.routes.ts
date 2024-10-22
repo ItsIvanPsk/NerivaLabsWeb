@@ -11,7 +11,9 @@ export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'projects/hospital-viladecans-vr-experience', component: HospitalViladecansComponent },
+  { path: 'projects/hospital-viladecans-vr-experience', component: NotFoundComponent },
   { path: 'projects/tintin60cat-vr-experience', component: Tintin60catVrExperienceComponent },
-  { path: '**', component: NotFoundComponent }, // Componente 404
+  { path: 'page-not-found', component: NotFoundComponent },
+  { path: '404', component: NotFoundComponent },
+  { path: '**', component: NotFoundComponent },
 ];
