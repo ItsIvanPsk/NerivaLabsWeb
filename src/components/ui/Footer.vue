@@ -2,31 +2,29 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-section">
-        <h3 class="footer-title">Acerca de Nosotros</h3>
+        <h3 class="footer-title footer-item">Acerca de Nosotros</h3>
         <p class="footer-text">
           Somos una compañía dedicada a ofrecer soluciones innovadoras para tu negocio.
         </p>
       </div>
 
       <div class="footer-section">
-        <h3 class="footer-title">Enlaces de utilidad</h3>
+        <h3 class="footer-title footer-item">Enlaces de utilidad</h3>
         <ul class="footer-links">
-          <li><a href="/proyectos">Proyectos</a></li>
-          <li><a href="/contacto">Contacto</a></li>
+          <li>
+            <RouterLink to="/proyectos">Proyectos</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/contacto">Contacto</RouterLink>
+          </li>
         </ul>
       </div>
 
       <div class="footer-section">
-        <h3 class="footer-title">Contáctanos</h3>
+        <h3 class="footer-title footer-item">Contáctanos</h3>
         <p class="footer-text">Email: contact@nerivalabs.com</p>
         <div class="footer-socials">
-          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-            <i class="fab fa-facebook"></i>
-          </a>
-          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <a href="https://www.instagram.com/nerivalabs/" target="_blank" aria-label="Instagram">
             <i class="fab fa-instagram"></i>
           </a>
         </div>

@@ -54,9 +54,7 @@
 
 <style scoped>
   .hero {
-    position: relative;
-    height: 55vh;
-    width: 210vh;
+    height: 50vh;
     margin-top: -1.2%;
     background-size: cover;
     background-position: center;
@@ -71,7 +69,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
+    margin-top: 5rem;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;

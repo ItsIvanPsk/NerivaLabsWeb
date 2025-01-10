@@ -39,17 +39,17 @@ const closeMenu = () => {
         </button>
         <nav :class="['nav', menuOpen ? 'nav-open' : '']">
           <ul class="nav-list">
-            <li class="nav-item">
+            <li class="nav-item header-item">
               <RouterLink to="/" class="nav-link" @click="closeMenu">
                 Página Principal
               </RouterLink>
             </li>
-            <li class="nav-item">
+            <li class="nav-item header-item">
               <RouterLink to="/proyectos" class="nav-link" @click="closeMenu">
                 Proyectos
               </RouterLink>
             </li>
-            <li class="nav-item">
+            <li class="nav-item header-item">
               <RouterLink to="/contacto" class="nav-link" @click="closeMenu">
                 Contacto
               </RouterLink>
