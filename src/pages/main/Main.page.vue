@@ -8,7 +8,7 @@
         <div class="content-container">
           <section>
             <article class="project-article">
-              <h3>Proyectos de Realidad Virtual</h3>
+              <h3 class="footer-item">Proyectos de Realidad Virtual</h3>
               <div class="project-container">
                 <div>
                   <img
@@ -19,7 +19,7 @@
                   <p class="project-container-subtitle">
                     <em>Realidad Virtual, Experiencia Inmersiva</em>
                   </p>
-                  <a class="btn-disabled">Próximamente</a>
+                  <RouterLink to="#"><a class="btn-disabled">Próximamente</a></RouterLink>
                 </div>
                 <div>
                   <img
@@ -28,9 +28,9 @@
                   />
                   <p class="project-container-title"><b>Hospital Viladecans</b></p>
                   <p class="project-container-subtitle">
-                    <em>Realidad Virtual, Experiencia Inmersiva, Tecnología Médica</em>
+                    <em>Realidad Virtual, Experiencia Inmersiva</em>
                   </p>
-                  <a class="btn-disabled">Próximamente</a>
+                  <RouterLink to="#"><a class="btn-disabled">Próximamente</a></RouterLink>
                 </div>
                 <div>
                   <img
@@ -41,15 +41,14 @@
                   <p class="project-container-subtitle">
                     <em>Realidad Virtual, Museo, Experiencia Inmersiva</em>
                   </p>
-                  <a href="/proyectos/tintin-60-cat" class="btn">Leer más</a>
+                  <RouterLink to="/proyectos/tintin-60-cat"><a class="btn">Leer más</a></RouterLink>
                 </div>
               </div>
             </article>
           </section>
-  
           <section>
             <article class="team-article">
-              <h3>Equipo de Neriva Labs</h3>
+              <h3 class="footer-item">Equipo de Neriva Labs</h3>
               <div class="team-container">
                 <TeamMember
                   imgSrc="/persona.png"
@@ -80,7 +79,6 @@
     flex-direction: column;
     min-height: 100vh;
     color: #333;
-    font-family: Arial, sans-serif;
   }
   
   .main-container {
@@ -179,6 +177,21 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     background-color: #7491d6;
+  }
+
+  .btn-disabled:hover {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #7491d6;
+    cursor: default;
   }
 
   .team-article {

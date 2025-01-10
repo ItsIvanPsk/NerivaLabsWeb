@@ -21,7 +21,8 @@
       <div class="gallery">
         <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-1.jpg" alt="Galería 1" />
         <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-2.jpg" alt="Galería 2" />
-        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-3.jpg" alt="Galería 3" />
+        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-3.png" alt="Galería 3" />
+        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-4.png" alt="Galería 3" />
       </div>
     </div>
   </div>
