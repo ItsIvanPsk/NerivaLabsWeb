@@ -5,8 +5,8 @@ import ProjectsListVue from '../pages/projects/ProjectsList.page.vue'
 import EsteveTerradas50th from '../pages/projects/pages/EsteveTerradas50th.page.vue';
 import HospitalViladecans from '../pages/projects/pages/HospitalViladecans.page.vue';
 import TinTin60Cat from '../pages/projects/pages/TinTin60Cat.page.vue';
+import MetaCorn from '../pages/projects/pages/MetaCorn.page.vue';
 import PageNotFound from '../pages/errors/404.page.vue';
-
 
 
 const router = createRouter({
@@ -42,6 +42,11 @@ const router = createRouter({
       path: '/proyectos/tintin-60-cat',
       name: 'ProjectTinTin60Cat',
       component: TinTin60Cat
+    },
+    {
+      path: '/proyectos/meta-corn-fortnite',
+      name: 'MetaCorn',
+      component: MetaCorn
     },
   ]
 })

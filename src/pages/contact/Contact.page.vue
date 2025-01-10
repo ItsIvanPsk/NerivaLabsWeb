@@ -1,6 +1,6 @@
 <template>
     <div class="contact-page">
-      <h1 class="title">Contacto</h1>
+      <h1 class="title footer-item">Contacto</h1>
       <p class="description">
         Rellena este formulario para ponerte en contacto con nosotros. Los datos que introduzcas serán enviados directamente al equipo de Neriva Labs.
       </p>
@@ -168,7 +168,6 @@ export default {
     padding: 3rem;
     max-width: 800px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
   }
   
   .title {

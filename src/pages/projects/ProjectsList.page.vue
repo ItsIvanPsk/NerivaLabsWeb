@@ -1,6 +1,6 @@
 <template>
   <div class="project-list">
-    <h1 class="title">Proyectos</h1>
+    <h1 class="title footer-item">Proyectos</h1>
     <div class="project-grid">
       <div
         v-for="project in projects"
@@ -83,9 +83,7 @@ export default {
 .title {
   text-align: center;
   font-size: 2.5rem;
-  font-weight: bold;
   margin-bottom: 3rem;
-  color: #333;
 }
 
 .project-grid {
@@ -122,10 +120,10 @@ export default {
 }
 
 .project-card.disabled {
-  cursor: not-allowed; /* Cambia el cursor */
-  box-shadow: none; /* Elimina el efecto de sombra */
-  transform: none; /* No aplicar transformación */
-  pointer-events: none; /* Desactiva cualquier interacción */
+  cursor: not-allowed; 
+  box-shadow: none; 
+  transform: none; 
+  pointer-events: none; 
 }
 
 .project-image {
@@ -141,7 +139,7 @@ export default {
 
 .project-name {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #222;
   margin-bottom: 0.5rem;
 }
