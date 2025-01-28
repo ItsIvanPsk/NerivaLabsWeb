@@ -1,9 +1,9 @@
 <template>
     <div class="full-container">
       <Hero
-      title="Neriva Labs"
-      subtitle="Tech Solutions" />
-  
+        title="Neriva Labs"
+        subtitle="Tech Solutions"
+      />
       <main class="main-container">
         <div class="content-container">
           <section>
@@ -63,27 +63,25 @@
 </script>
   
 <style scoped>
-  .full-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100%;
-    color: #333;
-  }
+.full-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
   
   .main-container {
-    flex: 1;
-    padding: 2rem;
-    width: 100vh;
-  }
-  
-  @media (max-width: 768px) {
-    .main-container {
-      width: 100%;
-      max-width: none;
-      min-width: none;
-    }
-  }
+  flex: 1;
+  padding: 2rem;
+  width: 100%; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
 
   .content-container {
     margin: 0 auto;
@@ -216,4 +214,3 @@
 
 
 </style>
-  

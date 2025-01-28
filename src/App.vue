@@ -77,6 +77,7 @@ const closeMenu = () => {
 .header {
   background-color: #1e293b;
   padding: 1rem 0;
+  width: 100%;
 
   .header-container {
     max-width: 160vh;
