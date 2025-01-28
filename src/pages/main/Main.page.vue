@@ -74,18 +74,13 @@
 }
 
   
-  .main-container {
+.main-container {
   flex: 1;
   padding: 2rem;
-  width: 100%; /* <- Cambiado de 100vh a 100% */
-  max-width: 1200px; /* Para evitar que sea demasiado ancho en pantallas grandes */
-  margin: 0 auto; /* Centrar el contenido */
+  width: 100%; 
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
-
-
-  .content-container {
-    margin: 0 auto;
-  }
   
   .project-article {
     margin-bottom: 3rem;
@@ -214,4 +209,3 @@
 
 
 </style>
-  

@@ -86,11 +86,10 @@
       font-size: 3rem;
       font-weight: bold;
       color: white;
-      margin-bottom: 1rem;
+      margin-top: 5rem;
     }
     .hero-subtitle {
       font-size: 1.5rem;
-      margin-bottom: 2rem;
       color: white;
     }
     .hero-cta {
@@ -107,4 +106,3 @@
       background-color: #0056b3;
     }
   </style>
-    
