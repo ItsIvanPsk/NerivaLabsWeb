@@ -74,18 +74,13 @@
 }
 
   
-  .main-container {
+.main-container {
   flex: 1;
   padding: 2rem;
   width: 100%; 
   max-width: 1200px; 
   margin: 0 auto; 
 }
-
-
-  .content-container {
-    margin: 0 auto;
-  }
   
   .project-article {
     margin-bottom: 3rem;
