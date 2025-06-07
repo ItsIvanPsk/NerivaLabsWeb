@@ -1,38 +1,27 @@
-  <template>
-      <div class="full-container">
-        <Hero
-          title="Neriva Labs"
-          subtitle="Tech Solutions"
-        />
-        <main class="main-container">
-          <div class="content-container">
-            <section>
-              <article class="project-article">
-                <h3 class="footer-item">Proyectos de Realidad Virtual</h3>
-                <div class="project-container">
-                  <div>
-                    <img
-                      src="/projects/hospital-viladecans-vr-experience/hcvr-img-4.png"
-                      alt="Proyecto de experiencia de realidad virtual en Hospital Viladecans"
-                    />
-                    <p class="project-container-title"><b>Hospital Viladecans</b></p>
-                    <p class="project-container-subtitle">
-                      <em>Realidad Virtual, Experiencia Inmersiva</em>
-                    </p>
-                    <RouterLink to="#"><a class="btn-disabled">Próximamente</a></RouterLink>
-                  </div>
-                  <div>
-                    <img
-                      src="/projects/tintin-vr-experience/TinTinVRExperience-1.png"
-                      alt="Proyecto de realidad virtual TinTin60CAT"
-                    />
-                    <p class="project-container-title"><b>TinTin60CAT</b></p>
-                    <p class="project-container-subtitle">
-                      <em>Realidad Virtual, Museo, Experiencia Inmersiva</em>
-                    </p>
-                    <RouterLink to="/proyectos/tintin-60-cat"><a class="btn">Leer más</a></RouterLink>
-                  </div>
+<template>
+    <div class="full-container">
+      <Hero
+      title="Neriva Labs"
+      subtitle="Tech Solutions" />
+  
+      <main class="main-container">
+        <div class="content-container">
+          <section>
+            <article class="project-article">
+              <h3 class="footer-item">Proyectos de Realidad Virtual</h3>
+              <div class="project-container">
+                <div>
+                  <img
+                    src="/projects/hospital-viladecans-vr-experience/hcvr-img-4.png"
+                    alt="Proyecto de experiencia de realidad virtual en Hospital Viladecans"
+                  />
+                  <p class="project-container-title"><b>Hospital Viladecans</b></p>
+                  <p class="project-container-subtitle">
+                    <em>Realidad Virtual, Experiencia Inmersiva</em>
+                  </p>
+                  <RouterLink to="/proyectos/hospital-viladecans"><a class="btn">Leer más</a></RouterLink>
                 </div>
+              </div>
               </article>
             </section>
             <section>

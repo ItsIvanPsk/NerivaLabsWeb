@@ -1,28 +1,27 @@
 <template>
   <div class="project-detail">
     <h1 class="title">Hospital Viladecans VR Experience</h1>
-    <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-0.jpg" alt="Hospital Viladecans" class="project-image" />
-    
+    <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-0.jpg" alt="Simulación de realidad virtual en Hospital Viladecans" class="project-image" />
+
     <div class="content">
       <p class="description">
-        Proyecto de realidad virtual diseñado para mejorar la experiencia de los pacientes en el Hospital Viladecans. Una
-        herramienta innovadora que ayuda a los pacientes y profesionales médicos a adaptarse a entornos hospitalarios.
+        Descubre <strong>Hospital Viladecans VR Experience</strong>, un innovador proyecto de <strong>realidad virtual aplicada al entorno hospitalario</strong> que transforma la forma en que pacientes y profesionales viven la experiencia sanitaria. Diseñado para reducir el estrés, facilitar la adaptación al entorno clínico y ofrecer <strong>formación inmersiva</strong> al personal médico.
       </p>
 
-      <h2 class="subtitle">Características</h2>
+      <h2 class="subtitle">Beneficios clave de la experiencia VR en hospitales</h2>
       <ul class="features">
-        <li>Simulación de entornos hospitalarios para pacientes y personal.</li>
-        <li>Reducción de la ansiedad previa a procedimientos médicos.</li>
-        <li>Capacitación interactiva para personal sanitario.</li>
-        <li>Compatible con dispositivos Meta Quest y Pico VR.</li>
+        <li><strong>Simulación realista</strong> de espacios hospitalarios para preparar a los pacientes antes de su ingreso o intervención.</li>
+        <li><strong>Reducción comprobada del estrés</strong> y la ansiedad en pacientes mediante entornos seguros e inmersivos.</li>
+        <li><strong>Formación interactiva y práctica</strong> para el personal sanitario en situaciones clínicas simuladas.</li>
+        <li><strong>Compatible con Meta Quest</strong>: sin cables, fácil de usar y 100% portátil.</li>
       </ul>
 
-      <h2 class="subtitle">Galería</h2>
+      <h2 class="subtitle">Imágenes del proyecto</h2>
       <div class="gallery">
-        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-1.jpg" alt="Galería 1" />
-        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-2.jpg" alt="Galería 2" />
-        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-3.png" alt="Galería 3" />
-        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-4.png" alt="Galería 3" />
+        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-1.jpg" alt="Simulación VR en hospital de Viladecans" />
+        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-2.jpg" alt="Paciente usando gafas de realidad virtual en hospital" />
+        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-3.png" alt="Entrenamiento médico con realidad virtual" />
+        <img src="/projects/hospital-viladecans-vr-experience/hcvr-img-4.png" alt="Escenario inmersivo hospitalario en VR" />
       </div>
     </div>
   </div>
@@ -33,6 +32,8 @@ export default {
   name: 'HospitalViladecans',
 };
 </script>
+
+
 
 
 <style scoped>

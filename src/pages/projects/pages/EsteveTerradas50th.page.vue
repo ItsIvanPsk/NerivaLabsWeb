@@ -1,27 +1,28 @@
 <template>
   <div class="project-detail">
-    <h1 class="title">50th Esteve Terradas</h1>
-    <img src="/projects/esteve-terradas-50th/EsteveTerradas50th-1.png" alt="50th Esteve Terradas" class="project-image" />
+    <h1 class="title">50º Aniversario Esteve Terradas</h1>
+    <img src="/projects/esteve-terradas-50th/50-Esteve-Terradas-1.jpg" alt="Recorrido virtual del instituto Esteve Terradas" class="project-image" />
     
     <div class="content">
       <p class="description">
-        Celebración del 50 aniversario del instituto Esteve Terradas. Un proyecto que combina historia, innovación y educación
-        para ofrecer una experiencia interactiva única para estudiantes, profesores y la comunidad local.
+        Con motivo del <strong>50º aniversario del Institut Esteve Terradas i Illa</strong>, Neriva Labs ha desarrollado una <strong>experiencia interactiva en realidad virtual</strong> que fusiona historia, tecnología y comunidad educativa. 
+        <br><br>
+        Este proyecto conmemorativo ofrece un recorrido inmersivo por los momentos clave del centro, permitiendo a <strong>alumnos, exalumnos, docentes y familias</strong> revivir su historia desde una nueva perspectiva digital.
       </p>
 
-      <h2 class="subtitle">Características</h2>
+      <h2 class="subtitle">¿Qué incluye esta experiencia?</h2>
       <ul class="features">
-        <li>Recorrido virtual por la historia del instituto.</li>
-        <li>Actividades interactivas diseñadas para los estudiantes.</li>
-        <li>Eventos conmemorativos en un entorno inmersivo.</li>
-        <li>Accesible desde múltiples dispositivos de realidad virtual.</li>
+        <li><strong>Tour virtual</strong> a través de las décadas de evolución del instituto.</li>
+        <li><strong>Actividades interactivas</strong> centradas en la participación del alumnado.</li>
+        <li><strong>Espacios temáticos conmemorativos</strong> en entornos 3D accesibles y envolventes.</li>
+        <li><strong>Compatible con visores VR</strong> como Meta Quest, así como dispositivos tradicionales.</li>
       </ul>
 
-      <h2 class="subtitle">Galería</h2>
+      <h2 class="subtitle">Galería del recorrido conmemorativo</h2>
       <div class="gallery">
-        <img src="/projects/esteve-terradas-50th/EsteveTerradas50th-1.png" alt="Galería 1" />
-        <img src="/projects/esteve-terradas-50th/EsteveTerradas50th-1.png" alt="Galería 2" />
-        <img src="/projects/esteve-terradas-50th/EsteveTerradas50th-1.png" alt="Galería 3" />
+        <img src="/projects/esteve-terradas-50th/50-Esteve-Terradas-2.jpg" alt="Celebración 50 años Esteve Terradas en VR" />
+        <img src="/projects/esteve-terradas-50th/50-Esteve-Terradas-3.jpg" alt="Evento conmemorativo en realidad virtual" />
+        <img src="/projects/esteve-terradas-50th/50-Esteve-Terradas-6.jpg" alt="Espacios históricos del instituto en 3D" />
       </div>
     </div>
   </div>
@@ -32,6 +33,7 @@ export default {
   name: 'EsteveTerradas50th',
 };
 </script>
+
 
 
 <style scoped>

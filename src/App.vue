@@ -67,7 +67,6 @@ const closeMenu = () => {
 
 
 <style scoped lang="scss">
-
 .layout {
   display: flex;
   flex-direction: column;
@@ -195,11 +194,10 @@ const closeMenu = () => {
 }
 
 .main-container {
-  flex: 1;
   display: flex; 
   flex-direction: column; 
   align-items: center; 
-  justify-content: flex-start; 
+  justify-content: center; 
   padding: 2rem 1rem;
   max-width: 1200px;
   margin: 0 auto;

@@ -43,19 +43,19 @@ export default {
       {
         id: 1,
         name: "50th Esteve Terradas",
-        image: "/projects/esteve-terradas-50th/EsteveTerradas50th-1.png",
-        buttonText: "Próximamente",
-        disabled: true,
-        buttonAction: () => undefined,
+        image: "/projects/esteve-terradas-50th/50-Esteve-Terradas-1.jpg",
+        buttonText: "Leer más",
+        disabled: false,
+        buttonAction: () => navigateToProject("/proyectos/50th-esteve-terradas"),
       },
       {
         id: 2,
         name: "Hospital Viladecans",
         route: "/proyectos/hospital-viladecans",
         image: "/projects/hospital-viladecans-vr-experience/hcvr-img-0.jpg",
-        buttonText: "Próximamente",
-        disabled: true,
-        buttonAction: () => undefined,
+        buttonText: "Leer más",
+        disabled: false,
+        buttonAction: () => navigateToProject("/proyectos/hospital-viladecans"),
       },
       {
         id: 3,
@@ -66,6 +66,15 @@ export default {
         disabled: false,
         buttonAction: () => navigateToProject("/proyectos/tintin-60-cat"),
       },
+      {
+        id: 4,
+        name: "MetaCorn",
+        route: "/proyectos/meta-corn-fortnite",
+        image: "/projects/meta-corn/meta-corn-1.png",
+        buttonText: "Leer más",
+        disabled: false,
+        buttonAction: () => navigateToProject("/proyectos/meta-corn-fortnite"),
+      }
     ];
 
     return { projects };
@@ -88,22 +97,19 @@ export default {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 1fr;
   gap: 2rem;
   width: 100%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .project-grid {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 .project-card {
-  position: relative;
+  width: 100%;
   background-color: #fff;
   border: none;
   border-radius: 12px;
@@ -111,7 +117,6 @@ export default {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   cursor: pointer;
-  flex: 1;
 }
 
 .project-card:hover {
@@ -120,10 +125,10 @@ export default {
 }
 
 .project-card.disabled {
-  cursor: not-allowed; 
-  box-shadow: none; 
-  transform: none; 
-  pointer-events: none; 
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+  pointer-events: none;
 }
 
 .project-image {
@@ -162,13 +167,13 @@ export default {
 }
 
 .project-button.disabled {
-  background-color: #7491d6; 
-  color: #fff; 
+  background-color: #7491d6;
+  color: #fff;
   cursor: not-allowed;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 .project-button.disabled:hover {
-  transform: none; 
+  transform: none;
 }
 </style>

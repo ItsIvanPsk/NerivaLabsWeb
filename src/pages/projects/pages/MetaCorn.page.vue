@@ -1,39 +1,39 @@
 <template>
-    <div class="project-detail">
-      <h1 class="title">MetaCorn</h1>
-      <img src="/logos/nerivalabs-logo.png" alt="MetaCorn Project" class="project-image" />
-  
-      <div class="content">
-        <p class="description">
-          MetaCorn es un proyecto desarrollado en colaboración con el instituto Esteve Terradas i Illa. Neriva Labs ha creado
-          un mapa interactivo en Fortnite que recrea los edificios y zonas más emblemáticas de Cornellà de Llobregat,
-          Barcelona, destacando su valor socio-cultural. Este proyecto permite a los jóvenes explorar y descubrir la
-          ciudad de una manera inmersiva y divertida mientras juegan a Fortnite.
-        </p>
-  
-        <h2 class="subtitle">Características</h2>
-        <ul class="features">
-          <li>Recreación de Cornellà de Llobregat en Fortnite.</li>
-          <li>Incluye edificios y zonas emblemáticas de la ciudad.</li>
-          <li>Pone en valor la propuesta socio-cultural de cada espacio.</li>
-          <li>Ofrece una experiencia educativa y entretenida para los jóvenes.</li>
-        </ul>
-  
-        <h2 class="subtitle">Galería</h2>
-        <div class="gallery">
-          <img src="/logos/nerivalabs-logo.png" alt="Galería 1" />
-          <img src="/logos/nerivalabs-logo.png" alt="Galería 2" />
-          <img src="/logos/nerivalabs-logo.png" alt="Galería 3" />
-        </div>
+  <div class="project-detail">
+    <h1 class="title">MetaCorn: Fortnite Metaverse</h1>
+    <img src="/projects/meta-corn/meta-corn-1.png" alt="Mapa educativo de Cornellà en Fortnite" class="project-image" />
+
+    <div class="content">
+      <p class="description">
+        <strong>MetaCorn</strong> es una innovadora experiencia de <strong>realidad virtual y metaverso</strong> desarrollada por Neriva Labs en colaboración con el Institut Esteve Terradas i Illa. Este proyecto recrea de forma interactiva los <strong>lugares más emblemáticos de Cornellà de Llobregat</strong> dentro de Fortnite, combinando <strong>educación, cultura local y gamificación</strong>.
+        <br><br>
+        Pensado especialmente para jóvenes, <strong>MetaCorn invita a explorar Cornellà mientras juegas</strong>, conectando el entorno urbano con una narrativa inmersiva en uno de los videojuegos más populares del mundo.
+      </p>
+
+      <h2 class="subtitle">¿Qué lo hace especial?</h2>
+      <ul class="features">
+        <li>Recreación fidedigna de <strong>zonas icónicas de Cornellà</strong> dentro del universo Fortnite.</li>
+        <li><strong>Exploración educativa</strong>: cada espacio revela su historia, valor cultural y social.</li>
+        <li>Diseñado para ser <strong>atractivo y didáctico</strong>, ideal para jóvenes estudiantes.</li>
+        <li>Un puente entre el <strong>aprendizaje activo y el entretenimiento digital</strong>.</li>
+      </ul>
+
+      <h2 class="subtitle">Galería del mapa en Fortnite</h2>
+      <div class="gallery">
+        <img src="/projects/meta-corn/meta-corn-2.jpg" alt="Zona emblemática recreada en Fortnite" />
+        <img src="/projects/meta-corn/meta-corn-5.jpg" alt="Jugabilidad educativa dentro del mapa MetaCorn" />
+        <img src="/projects/meta-corn/meta-corn-4.jpg" alt="Fortnite metaverso Cornellà" />
       </div>
     </div>
+  </div>
 </template>
-  
+
 <script lang="ts">
-  export default {
-    name: "MetaCorn",
-  };
+export default {
+  name: "MetaCorn",
+};
 </script>
+
   
 <style scoped>
   .project-detail {

@@ -1,29 +1,28 @@
 <template>
   <div class="project-detail">
     <h1 class="title">TinTin60Cat</h1>
-    <img src="/projects/tintin-vr-experience/TinTinVRExperience-1.png" alt="TinTin60Cat" class="project-image" />
+    <img src="/projects/tintin-vr-experience/TinTinVRExperience-1.png" alt="Experiencia VR del universo Tintín" class="project-image" />
     
     <div class="content">
       <p class="description">
-        Proyecto de realidad virtual inspirado en el mundo de Tintín. Una experiencia inmersiva única para los amantes del cómic.
-        Explora los lugares emblemáticos del universo de Tintín, interactúa con personajes y vive una historia única a través de la realidad virtual.
+        <strong>TinTin60Cat</strong> es una <strong>experiencia de realidad virtual inmersiva</strong> inspirada en el emblemático universo del cómic de Hergé. Creado para homenajear los <strong>60 años de Tintín en Cataluña</strong>, el proyecto permite a los usuarios <strong>explorar escenarios icónicos</strong>, interactuar con personajes legendarios y revivir la magia de las aventuras de Tintín como nunca antes.
+        <br><br>
+        Esta experiencia combina <strong>educación, cultura y tecnología</strong>, brindando un recorrido interactivo tanto para fans veteranos como para nuevos exploradores del mundo del reportero belga.
       </p>
 
-      <h2 class="subtitle">Características</h2>
+      <h2 class="subtitle">Lo que hace única esta experiencia VR</h2>
       <ul class="features">
-        <li>Exploración de escenarios en 3D, generados con el contenido del universo del comic.</li>
-        <li>Recorrido inmersivo diseñado fans y nuevos usuarios.</li>
-        <li>Compatibilidad con dispositivos de realidad virtual más populares.</li>
+        <li><strong>Escenarios en 3D</strong> fieles al estilo visual original de Tintín, cuidadosamente recreados para realidad virtual.</li>
+        <li><strong>Recorrido narrativo inmersivo</strong> que invita a descubrir secretos y curiosidades del cómic.</li>
+        <li><strong>Diseñada para todo tipo de público</strong>, desde lectores nostálgicos hasta nuevos fans.</li>
+        <li><strong>Compatible con Meta Quest y otros visores VR</strong>, sin necesidad de equipos complejos.</li>
       </ul>
 
-      <h2 class="subtitle">Galería</h2>
+      <h2 class="subtitle">Galería del universo Tintín en VR</h2>
       <div class="gallery">
-        <img src="/projects/tintin-vr-experience/TinTinVRExperience-1.png" alt="Galería 1" />
-        <img src="/projects/tintin-vr-experience/TinTinVRExperience-2.jpg" alt="Galería 2" />
-        <img src="/projects/tintin-vr-experience/TinTinVRExperience-3.jpg" alt="Galería 3" />
-        <img src="/projects/tintin-vr-experience/TinTinVRExperience-4.jpg" alt="Galería 3" />
-        <img src="/projects/tintin-vr-experience/TinTinVRExperience-5.jpg" alt="Galería 3" />
-        <img src="/projects/tintin-vr-experience/TinTinVRExperience-6.png" alt="Galería 3" />
+        <img src="/projects/tintin-vr-experience/TinTinVRExperience-1.png" alt="Vista principal de la experiencia VR de Tintín" />
+        <img src="/projects/tintin-vr-experience/TinTinVRExperience-2.jpg" alt="Exploración 3D del castillo de Moulinsart" />
+        <img src="/projects/tintin-vr-experience/TinTinVRExperience-3.jpg" alt="Ambientación inmersiva con personajes de Tintín" />
       </div>
     </div>
   </div>
@@ -34,6 +33,7 @@ export default {
   name: 'TinTin60Cat',
 };
 </script>
+
 
 <style scoped>
 .project-detail {
